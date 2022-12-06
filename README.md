@@ -62,6 +62,14 @@ collaborate (see also: git help workflows)
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated objects
 ```
-   
+
+## 1. git clone , git init
+
+clone, and init command is initialize current directory as a git working area.
+- sample
+1. create a directory.
+2. move to created directory
+3. run ```git init```
+
    
    
