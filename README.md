@@ -9,7 +9,7 @@ There would be kind explanations of every each of terms. THANK YOU!
 - GIT
 download links : https://git-scm.com/downloads
 
-Download git for your OS.
+Download git for your OS and install it.
 
 ----------------------------------
 # Now Let's git.
@@ -61,9 +61,7 @@ collaborate (see also: git help workflows)
    fetch     Download objects and refs from another repository
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
 ```
+   
+   
+   
