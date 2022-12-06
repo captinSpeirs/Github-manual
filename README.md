@@ -8,8 +8,10 @@ There would be kind explanations of every each of terms. THANK YOU!
 
 - GIT
 download links : https://git-scm.com/downloads
+
 Download git for your OS.
 
+----------------------------------
 # Now Let's gitting
 
 
