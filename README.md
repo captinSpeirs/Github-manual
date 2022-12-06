@@ -71,7 +71,8 @@ clone, and init command is initialize current directory as a git working area.
 2. move to created directory
 3. run ```git init```
 There will be a folder name ```.git/``` created.
-```.git/``` It contains a variety of information to manage feathers and versions.
+```.git/``` 
+It contains a variety of information to manage feathers and versions.
 
    
    
