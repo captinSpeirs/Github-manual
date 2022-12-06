@@ -13,7 +13,7 @@ Download git for your OS.
 
 ----------------------------------
 # Now Let's gitting
-
-
-  code 2
-
+user Desktop64 ~
+```
+git
+```
