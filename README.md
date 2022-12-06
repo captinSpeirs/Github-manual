@@ -63,13 +63,15 @@ collaborate (see also: git help workflows)
    push      Update remote refs along with associated objects
 ```
 
-## 1. git clone , git init
+## 1. git init
 
 clone, and init command is initialize current directory as a git working area.
 - sample
 1. create a directory.
 2. move to created directory
 3. run ```git init```
+There will be a folder name ```.git/``` created.
+```.git/``` It contains a variety of information to manage feathers and versions.
 
    
    
