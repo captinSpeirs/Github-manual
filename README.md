@@ -6,4 +6,9 @@ There would be kind explanations of every each of terms. THANK YOU!
 
 ---------------
 
+## Preparation ##
+
+- GIT
+download links : https://git-scm.com/downloads
+
 
