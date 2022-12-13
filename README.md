@@ -16,12 +16,11 @@ download links : https://git-scm.com/downloads
 
 'git' 을 터미널 또는 gitbash 에서 입력.
 
-정상적으로 설치가 완료되었다면 아래와 같은 정보를 
 ```
 user Desktop64 ~ 
 $ git
 ```
-Then you will get result as below.
+정상적으로 설치가 완료되었다면 아래와 같은 정보 출력
 ```
 usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
