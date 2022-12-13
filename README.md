@@ -120,7 +120,7 @@ modified : 변경된 파일
 new file : 새로 만들어진 파일
 
 ## 3. git status
-현재 git 의 상태를 확인.
+현재 git 의 상태를 확인. 
 
 
 
