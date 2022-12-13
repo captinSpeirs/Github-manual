@@ -69,14 +69,18 @@ collaborate (see also: git help workflows)
 'init' 명령어는 현재 디렉토리를 git의 작업 장소로 설정.
 - 예제
 **1.** 임의의 디렉토리 하나 생성.
+
 **2.** 생성된 디렉토리로 이동
+
 **3.** ```git init``` 명령어 입력
+
 해당 디렉토리가 git의 작업 장소로 설정되며 추가적으로 ```./git``` 이라는 디렉토리가 생성된다.
 ```.git/``` 디렉토리 안에는 작업장소에 관련한 다양한 정보와 특징 그리고 버전이 저장되어 있다.
 
 ## 2. git add
 -예제
 git init 과정에 이어서 시작.
+
 **1.** 생성된 디렉토리에 ```file1.txt``` 파일 생성.
 
 - file1.txt 내용
@@ -111,6 +115,9 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   f1.txt
 ```
+해당 정보에서 modified 라는 정보를 확인 할 수 있다.
+modified : 변경된 파일
+new file : 새로 만들어진 파일
 
 ## 3. git status
 현재 git 의 상태를 확인.
