@@ -67,7 +67,9 @@ collaborate (see also: git help workflows)
 ## 1. git init
 
 'init' 명령어는 현재 디렉토리를 git의 작업 장소로 설정.
-- 예제
+
+예제
+
 **1.** 임의의 디렉토리 하나 생성.
 
 **2.** 생성된 디렉토리로 이동
@@ -121,6 +123,24 @@ new file : 새로 만들어진 파일
 
 ## 3. git status
 현재 git 의 상태를 확인. 
+
+## 4. git commit
+깃에 변경된 사항이 생기고 해당 변경 부분을 ``git add`` 명령어를 통해 트래킹하고, 확인(confirm) 작업을 한다.
+이를 통해 버전이 생기는데, 해당 버전을 **누가 작업을 했느냐에 알기 위해서 이름을 세팅해야한다.**
+
+최초 한번만 하면 되는 작업이고 차후에 변경할 부분이 생길 경우 변경 할 수 있다.
+
+``git config --global user.name`` 명령어를 사용하면 된다.
+
+변경할 요소는 ``name``,``email`` 두가지가 존재한다.
+
+**1.** git username 설정하기
+``git config --global user.name``
+**2.** git email 설정하기
+``git config --global user.email``
+
+
+
 
 
 
