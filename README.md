@@ -6,15 +6,17 @@ There would be kind explanations of every each of terms. THANK YOU!
 
 ## Preparation ##
 
-- GIT
+- GIT 다운로드
 download links : https://git-scm.com/downloads
 
-Download git for your OS and install it.
+본인에게 알맞는 OS버전의 깃을 다운로드하여 설치.
 
 ----------------------------------
-# Now Let's git.
+# 깃을 시작해보자
 
-Type 'git' on your termminal or on your GitBash
+'git' 을 터미널 또는 gitbash 에서 입력.
+
+정상적으로 설치가 완료되었다면 아래와 같은 정보를 
 ```
 user Desktop64 ~ 
 $ git
@@ -65,14 +67,17 @@ collaborate (see also: git help workflows)
 
 ## 1. git init
 
-clone, and init command is initialize current directory as a git working area.
-- sample
-1. create a directory.
-2. move to created directory
-3. run ```git init```
-There will be a folder name ```.git/``` created.
-```.git/``` 
-It contains a variety of information to manage feathers and versions.
+'init' 명령어는 현재 디렉토리를 git의 작업 장소로 설정.
+- 예제
+1. 임의의 디렉토리 하나 생성.
+2. 생성된 디렉토리로 이동
+3. ```git init``` 명령어 입력
+해당 디렉토리가 git의 작업 장소로 설정되며 추가적으로 ```./git``` 이라는 디렉토리가 생성된다.
+```.git/``` 딜게토리 안에는 작업장소에 관련한 다양한 정보와 특징 그리고 버전이 저장되어 있다.
+
+## 2. git add
+
+
 
    
    
