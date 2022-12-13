@@ -145,7 +145,25 @@ new file : 새로 만들어진 파일
 **3.** 이제 ``commit`` 명령어를 사용 할 수 있다.
 
 아래의 명령어를 실행해보자
+
 ```git commit```
+
+위의 명령어를 실행하면 텍스트 파일이 하나 열리게 된다. 내부의 내용은 ``git status`` 명령어를 사용할 때 나오는 정보가 출력된다.
+
+아래는 텍스트 파일에 기재되는 정보의 예시이다
+```
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	modified:   file1.txt
+#
+
+```
+
+
 
 
 
