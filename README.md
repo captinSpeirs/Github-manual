@@ -144,7 +144,7 @@ new file : 새로 만들어진 파일
 
 **3.** 이제 ``commit`` 명령어를 사용 할 수 있다.
 
-아래의 명령어를 실행해보자
+**4.**아래의 명령어를 실행해보자
 
 ```git commit```
 
@@ -152,7 +152,7 @@ new file : 새로 만들어진 파일
 
 아래는 텍스트 파일에 기재되는 정보의 예시이다
 ```
-
+# 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
@@ -162,6 +162,30 @@ new file : 새로 만들어진 파일
 #
 
 ```
+**5.** commit 완료하기
+
+위의 텍스트 내용을 보면 1번 줄에는 어떤 텍스트도 입력되지 않았다. 해당 라인에 버전 정보를 입력하고 텍스트 파일을 종료하면
+이전의 작업했던 것들이 commit 되면서 아래와 같은 정보가 출력된다.
+```
+[master ba0e788] 1
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+이제 commit 이 완료되었다.
+
+**6.** commit 확인하기
+
+commit 이 완료되었는지 확인하기 위해서 다음과 같은 명령어를 실행해본다.
+``git log``
+
+해당 명령어를 실행하면 아래와 같은 정보가 출력된다.
+```
+commit 7cabc955e6f9bf26d8c7bc5e38000f9dc868d21c
+Author: tonykrjhc <tonykrjhc@elcompany.kr>
+Date:   Tue Dec 6 16:51:33 2022 +0900
+
+    1
+```
+commit을 누가 했는지와 하단에 표시된 숫자를 통해 버전을 확인 할 수 있다.
 
 
 
