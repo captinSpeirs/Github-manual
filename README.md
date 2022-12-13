@@ -75,6 +75,13 @@ collaborate (see also: git help workflows)
 ```.git/``` 딜게토리 안에는 작업장소에 관련한 다양한 정보와 특징 그리고 버전이 저장되어 있다.
 
 ## 2. git add
+-예제
+git init 과정에 이어서 시작.
+1. 생성된 디렉토리에 ```file1.txt``` 파일 생성.
+file1.txt 내용
+```
+code1
+```
 
 
 
