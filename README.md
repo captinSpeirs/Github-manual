@@ -79,10 +79,18 @@ collaborate (see also: git help workflows)
 git init 과정에 이어서 시작.
 1. 생성된 디렉토리에 ```file1.txt``` 파일 생성.
 
-file1.txt 내용
+- file1.txt 내용
 ```
-code1
+source1
 ```
+
+2. ``git status`` 명령어 입력
+
+
+## 3. git status
+현재 git 의 상태를 확인.
+
+
 
 
 
