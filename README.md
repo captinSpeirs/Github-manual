@@ -135,9 +135,18 @@ new file : 새로 만들어진 파일
 변경할 요소는 ``name``,``email`` 두가지가 존재한다.
 
 **1.** git username 설정하기
+
 ``git config --global user.name``
+
 **2.** git email 설정하기
+
 ``git config --global user.email``
+
+**3.** 이제 ``commit`` 명령어를 사용 할 수 있다.
+
+아래의 명령어를 실행해보자
+```git commit```
+
 
 
 
