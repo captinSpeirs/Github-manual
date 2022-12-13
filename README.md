@@ -78,6 +78,7 @@ collaborate (see also: git help workflows)
 -예제
 git init 과정에 이어서 시작.
 1. 생성된 디렉토리에 ```file1.txt``` 파일 생성.
+
 file1.txt 내용
 ```
 code1
