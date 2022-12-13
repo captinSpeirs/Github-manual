@@ -72,7 +72,7 @@ collaborate (see also: git help workflows)
 2. 생성된 디렉토리로 이동
 3. ```git init``` 명령어 입력
 해당 디렉토리가 git의 작업 장소로 설정되며 추가적으로 ```./git``` 이라는 디렉토리가 생성된다.
-```.git/``` 딜게토리 안에는 작업장소에 관련한 다양한 정보와 특징 그리고 버전이 저장되어 있다.
+```.git/``` 디렉토리 안에는 작업장소에 관련한 다양한 정보와 특징 그리고 버전이 저장되어 있다.
 
 ## 2. git add
 -예제
@@ -86,6 +86,31 @@ source1
 
 2. ``git status`` 명령어 입력
 
+다음과 같은 정보 출력이 된다.
+```
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   f1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+``f1.txt`` 파일이 git의 작업 목록에 트랙킹(tracking) 되지 않는 다는 뜻이다. git 작업소에서 작업을 하면서 변경된 파일 또는 새로 생긴 파일들은
+작업하면서 변경이 되었기 때문에 ``git init`` 을 통해 버전관리가 되고 있는 디렉토리안에 존재하지만 해당 파일이 git에게 버전관리 목록에 포함하기
+위한 명령을 내리기 전까지는 해당 파일을 무시한다.
+
+3. 해당 파일을 작업 목록에 포함시키기 위해서는 ``git add filename`` 을 입력한다.
+``git add f1.txt``
+
+4. 3번을 실행 하고 난 후, ``git status`` 를 입력하면 해당 파일이 트래킹이 잘 되었다는 정보 출력을 받을 수 있다.
+```
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   f1.txt
+```
 
 ## 3. git status
 현재 git 의 상태를 확인.
